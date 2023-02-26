@@ -34,7 +34,128 @@
         </div>
       </div>
     </header>
-    
+    <div id="category-bar">
+      <button class="category-button" id="active-category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/airplane.svg" alt="airplane icon">
+        <img class="activate-img" src="/imgs/airplane_black.svg" alt="airplane icon">
+        <div>
+          한옥
+        </div>
+      </button>
+      <button class="category-button">
+        <img class="inactivate-img" src="/imgs/armchair.svg" alt="armchair icon">
+        <img class="activate-img" src="/imgs/armchair_black.svg" alt="armchair icon">
+        <div>
+          펜션
+        </div>
+      </button>
+    </div>
     </div>
   </body>
+  <script>
+    document.querySelectorAll('.category-button').forEach(button => {
+      button.addEventListener("click", event => {
+        document.querySelector("#active-category-button").removeAttribute("id");
+        button.setAttribute("id", "active-category-button");
+      })
+    })
+  </script>
 </html>
